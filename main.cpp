@@ -22,14 +22,14 @@ int main()
 
 
     cout << "Hey, What your name mate ? :" ; // Ask the name of the person
-    cin >> name ; // The user give says the name
-    cout << name << " you want me to count till which number ? choose between 0 to 50 " << endl ;
+    cin >> name ; // The user says its  name
+    cout << name << " you want me to count till which number ? choose between 0 to 50 " << endl ; // a warnig about the interval that the AI can count
     cout << "Which number you want " << name << " ? :" ;
 
-    cin >> contador ; // The user gives the counter
+    cin >> contador ; // The user gives the superior limit
 
 
-    // the coditions to control that the AI always counts between 0  and 50
+    // The coditions to control that the AI always counts between 0  and 50
 
     if (contador < 0 and contador > 50){
         cout << name << " counting  from 0 to " << contador << " is to much for me\n" ;
