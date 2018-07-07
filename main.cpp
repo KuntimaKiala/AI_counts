@@ -13,19 +13,23 @@ using namespace std;
 int main()
 {
 
+    // The superior limit
     int contador ;
+    // The name of the name that will put the superior limit
     string  name ;
 
 
 
 
-    cout << "Hey, What your name mate ? :" ;
-    cin >> name ;
+    cout << "Hey, What your name mate ? :" ; // Ask the name of the person
+    cin >> name ; // The user give says the name
     cout << name << " you want me to count till which number ? choose between 0 to 50 " << endl ;
     cout << "Which number you want " << name << " ? :" ;
 
-    cin >> contador ;
+    cin >> contador ; // The user gives the counter
 
+
+    // the coditions to control that the AI always counts between 0  and 50
 
     if (contador < 0 and contador > 50){
         cout << name << " counting  from 0 to " << contador << " is to much for me\n" ;
